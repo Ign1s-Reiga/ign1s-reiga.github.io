@@ -15,12 +15,13 @@ jobs:
           cache: yarn
       - name: Install Packages
         run: yarn install --frozen-lockfile
-      - name: Build
+      - name: Build Sourcecode
         run: yarn build
-      - name: Export
+      - name: Export from Built files
         run: yarn export
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: out
+          cname: reiga7953.net
