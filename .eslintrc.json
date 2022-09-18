@@ -22,6 +22,9 @@
     "key-spacing": "warn",
     "arrow-spacing": "warn",
     "switch-colon-spacing": "warn",
+    "indent": ["error", 2],
+    "no-tabs": "warn",
+    "semi": ["error", "always"],
     "@typescript-eslint/ban-ts-comment": "warn",
     "@typescript-eslint/no-empty-interface": "error"
   }
