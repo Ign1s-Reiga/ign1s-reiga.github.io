@@ -2,7 +2,7 @@ export const darkTheme = {
   primaryColor: '',
   secondaryColor: '',
   textColor: '',
-  backgroundColor: '',
+  backgroundColor: '#262626',
 };
 
 export const lightTheme = {
