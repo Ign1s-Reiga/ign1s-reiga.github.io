@@ -1,5 +1,4 @@
 {
-  "extends": "next/core-web-vitals",
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "parserOptions": {
@@ -15,7 +14,7 @@
   "rules": {
     "no-duplicate-imports": "warn",
     "quotes": ["warn", "single"],
-    "jsx-quotes": ["warn", "prefer-double"],
+    "jsx-quotes": ["warn", "prefer-single"],
     "block-spacing": "warn",
     "comma-spacing": "warn",
     "array-bracket-spacing": "warn",

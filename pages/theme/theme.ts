@@ -1,13 +1,19 @@
-export const darkTheme = {
-  primaryColor: '',
-  secondaryColor: '',
-  textColor: '',
-  backgroundColor: '#262626',
-};
+import { createTheme } from '@mui/material';
 
-export const lightTheme = {
-  primaryColor: '',
-  secondaryColor: '',
-  textColor: '',
-  backgroundColor: '#ffffff',
-};
+export const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+    background: {
+      default: '#232323'
+    }
+  }
+});
+
+export const lightTheme = createTheme({
+  palette: {
+    mode: 'light',
+    background: {
+      default: '#ffffff'
+    }
+  }
+});

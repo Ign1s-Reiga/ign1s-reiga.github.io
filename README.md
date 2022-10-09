@@ -1,4 +1,3 @@
-# Portfolio
+# Reiga-Portfolio
 
-Reigaのポートフォリオ。
-未完成。
+Reigaのポートフォリオ。未完成。
