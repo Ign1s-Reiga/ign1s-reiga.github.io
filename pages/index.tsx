@@ -4,7 +4,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import Describe from '../components/Describe';
-import twitterIcon from '../public/twitter-icon.png';
 import githubIcon from '../public/github-icon.png';
 
 const Container = styled.div`
@@ -93,8 +92,8 @@ const Index = () => {
         />
       </Container>
       <Container css={ styles.contact }>
-        <Link href='https://twitter.com/rem7953_kogyo/'><Image src={ twitterIcon } width={48} height={48} alt='twitter-icon' /></Link>
-        <Link href='https://github.com/Ign1s-Reiga'><Image src={ githubIcon } width={48} height={48} alt='github-icon' /></Link>
+        <Link href='https://twitter.com/rem7953_kogyo/'><img src='./twitter-icon.png' width={48} height={48} alt='twitter-icon' /></Link>
+        <Link href='https://github.com/Ign1s-Reiga'><img src='./github-icon.png' width={48} height={48} alt='github-icon' /></Link>
       </Container>
     </div>
   );
