@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { Avatar, Link } from '@mui/material';
 import React, { useCallback, useEffect, useState } from 'react';
 import { css } from '@emotion/react';
-import { darkTheme, lightTheme } from 'theme/theme';
 import styled from '@emotion/styled';
 import Describe from '../components/Describe';
 import twitterIcon from '../public/twitter-icon.png';
