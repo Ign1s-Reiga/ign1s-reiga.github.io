@@ -1,7 +1,7 @@
-import type { AppProps } from 'next/app';
+import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
-import { css, Global } from '@emotion/react'
+import { css, Global } from '@emotion/react';
 
 const globalStyle = css`
   body {
