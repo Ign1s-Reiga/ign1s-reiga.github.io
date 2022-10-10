@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import React, { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { css, Global } from '@emotion/react'
 
 const globalStyle = css`
@@ -15,10 +15,10 @@ const globalStyle = css`
   * {
     box-sizing: border-box;
   }
-`
+`;
 
 const App = ({ Component, pageProps }: AppProps) => {
-  const [showScreen, setShowScreen] = React.useState(false);
+  const [showScreen, setShowScreen] = useState(false);
   useEffect(() => {
     setShowScreen(true);
   }, []);

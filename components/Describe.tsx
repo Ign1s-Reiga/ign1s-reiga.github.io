@@ -1,6 +1,6 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 import { css } from '@emotion/react';
-import { Typography } from '@mui/material'
+import { Typography } from '@mui/material';
 
 const styles = {
   left: css`
@@ -41,7 +41,7 @@ const DescribeContainer = styled.div`
   display: flex;
   flex-grow: 1;
   flex-direction: row;
-`
+`;
 
 const Describe = (props: {side: string, title: string, desc: string}) => {
   return (

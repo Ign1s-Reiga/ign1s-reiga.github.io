@@ -1,19 +1,19 @@
 import Image from 'next/image';
-import { Avatar, IconButton, Link } from '@mui/material';
+import { Avatar, Link } from '@mui/material';
 import React, { useCallback, useEffect, useState } from 'react';
 import { css } from '@emotion/react';
 import { darkTheme, lightTheme } from 'theme/theme';
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 import Describe from '../components/Describe';
-import twitterIcon from '../public/twitter-icon.png'
-import githubIcon from '../public/github-icon.png'
+import twitterIcon from '../public/twitter-icon.png';
+import githubIcon from '../public/github-icon.png';
 
 const Container = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-`
+`;
 
 const styles = {
   main: css`
