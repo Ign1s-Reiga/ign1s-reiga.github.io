@@ -11,14 +11,17 @@ const styles = {
       margin: auto auto auto 2rem;
       white-space: pre-line;
       justify-self: self-start;
-      @media (max-height: 960px) {
+      @media (max-height: 900px) {
+        font-size: 1.2rem;
+      }
+      @media (max-height: 880px) {
         font-size: 1.1rem;
       }
     }
     .MuiTypography-h1 {
       white-space: nowrap;
       margin-left: 2rem;
-      @media (max-height: 960px) {
+      @media (max-height: 940px) {
         font-size: 4.8rem;
       }
     }
@@ -30,13 +33,16 @@ const styles = {
       font-size: 1.3rem;
       white-space: break-spaces;
       margin: auto 2rem;
-      @media (max-height: 960px) {
+      @media (max-height: 900px) {
+        font-size: 1.2rem;
+      }
+      @media (max-height: 880px) {
         font-size: 1.1rem;
       }
     }
     .MuiTypography-h1 {
       white-space: nowrap;
-      @media (max-height: 960px) {
+      @media (max-height: 940px) {
         font-size: 4.8rem;
       }
     }
