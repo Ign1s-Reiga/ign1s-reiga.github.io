@@ -67,7 +67,7 @@ const Index = () => {
   const [isDarkMode, setDarkMode] = useDarkMode(false);
 
   return (
-    <div css={css`padding: 0 2rem`}>
+    <div css={css`padding: 0 2rem; box-sizing: border-box;`}>
       <Container css={ styles.main }>
         <Avatar alt='Ign1s Reiga' src='/icon.png' sx={{ width: 280, height: 280, mb: '2rem' }}/>
         <h1>Hi, There👋</h1>

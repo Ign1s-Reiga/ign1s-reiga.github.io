@@ -5,16 +5,10 @@ import { css, Global } from '@emotion/react';
 
 const globalStyle = css`
   body {
-    padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    min-height: 100vh;
     max-width: 100%;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 50%, #f3e7e9 100%);
-  }
-  
-  * {
-    box-sizing: border-box;
   }
 `;
 
