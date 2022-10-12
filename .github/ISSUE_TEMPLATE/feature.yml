@@ -1,0 +1,18 @@
+name: 機能の追加
+description: 新しい機能を追加するとき用
+title: "feature: "
+labels: ["feature"]
+body:
+  - type: markdown
+    id: description
+    attributes:
+      label: 概要
+  - type: checkboxes
+    id: required
+    attributes:
+      label: 必須項目
+      options:
+        - label: Something
+          required: true
+        - label: Something else
+          required: true
