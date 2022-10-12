@@ -1,0 +1,9 @@
+name: その他
+description: Issues requiring bugfix
+title: "chore: "
+labels: ["chore"]
+body:
+  - type: markdown
+    id: description
+    attributes:
+      label: 概要
