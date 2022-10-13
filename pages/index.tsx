@@ -1,10 +1,8 @@
-import Image from 'next/image';
 import { Avatar, Link } from '@mui/material';
 import React, { useCallback, useEffect, useState } from 'react';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import Describe from '../components/Describe';
-import githubIcon from '../public/github-icon.png';
 
 const Container = styled.div`
   height: 100vh;
@@ -92,8 +90,8 @@ const Index = () => {
         />
       </Container>
       <Container css={ styles.contact }>
-        <Link href='https://twitter.com/rem7953_kogyo/'><img src='./twitter-icon.png' width={48} height={48} alt='twitter-icon' /></Link>
-        <Link href='https://github.com/Ign1s-Reiga'><img src='./github-icon.png' width={48} height={48} alt='github-icon' /></Link>
+        <Link href='https://twitter.com/rem7953_kogyo/'><img src='./twitter-icon.webp' width={48} height={48} alt='twitter-icon' /></Link>
+        <Link href='https://github.com/Ign1s-Reiga'><img src='./github-icon.webp' width={48} height={48} alt='github-icon' /></Link>
       </Container>
     </div>
   );

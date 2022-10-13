@@ -59,6 +59,9 @@ const DescribeContainer = styled.div`
   display: flex;
   flex-grow: 1;
   flex-direction: row;
+  @media (max-width: 1100px) {
+    margin: 1.5rem auto;
+  }
 `;
 
 const Describe = (props: {side: string, title: string, desc: string}) => {
