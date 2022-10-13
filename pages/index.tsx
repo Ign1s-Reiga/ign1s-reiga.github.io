@@ -67,7 +67,7 @@ const Index = () => {
   return (
     <div css={css`padding: 0 2rem; box-sizing: border-box;`}>
       <Container css={ styles.main }>
-        <Avatar alt='Ign1s Reiga' src='/icon.png' sx={{ width: 280, height: 280, mb: '2rem' }}/>
+        <Avatar alt='Ign1s Reiga' src='/icon.webp' sx={{ width: 300, height: 300, mb: '2rem' }}/>
         <h1>Hi, There👋</h1>
         <h2>I&apos;m Ign1s Reiga</h2>
         <p css={css`color: gray;`}>それっぽいデザインにしていく</p>
@@ -90,8 +90,8 @@ const Index = () => {
         />
       </Container>
       <Container css={ styles.contact }>
-        <Link href='https://twitter.com/rem7953_kogyo/'><img src='./twitter-icon.webp' width={48} height={48} alt='twitter-icon' /></Link>
-        <Link href='https://github.com/Ign1s-Reiga'><img src='./github-icon.webp' width={48} height={48} alt='github-icon' /></Link>
+        <Link href='https://twitter.com/rem7953_kogyo/'><img src='./twitter-icon.webp' alt='twitter-icon' /></Link>
+        <Link href='https://github.com/Ign1s-Reiga'><img src='./github-icon.webp' alt='github-icon' /></Link>
       </Container>
     </div>
   );
