@@ -24,7 +24,11 @@ const App = ({ Component, pageProps }: AppProps) => {
         <Head>
           <title>Ign1s Reiga - Portfolio</title>
           <meta name='description' content="Ign1s-Reiga's portfolio"/>
-          <meta name="viewport" content="width=device-width,initial-scale=1"/>
+          <meta name="viewport" content='width=device-width, initial-scale=1'/>
+          <meta property='og:title' content="Ign1s-Reiga - Portfolio"/>
+          <meta property='og:type' content='website'/>
+          <meta property='og:url' content='https://reiga7953.net/'/>
+          <meta property='og:description' content='Ign1s-Reiga7s Portfolio'/>
           <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png'/>
           <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png'/>
         </Head>
